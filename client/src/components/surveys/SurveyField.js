@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ({ input, label, meta: { error, touched } }) => {
+const SurveyField = ({ input, label, meta: { error, touched } }) => {
   return (
     <div>
       <label>{label}</label>
@@ -11,3 +11,5 @@ export default ({ input, label, meta: { error, touched } }) => {
     </div>
   );
 };
+
+export default SurveyField;
